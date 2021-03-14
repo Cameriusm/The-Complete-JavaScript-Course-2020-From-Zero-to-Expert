@@ -101,11 +101,10 @@ console.log(x, y);
 
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
-*/
+
 
 ///////////////////////////////////////
 // Coding Challenge #1
-/* 
 
 Mark and John are trying to compare their BMI (Body Mass Index), which is
 calculated using the formula:
@@ -122,7 +121,7 @@ Test data:
 m tall.
 § Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76
 m tall.
-*/
+
 
 // const markMass = 78;
 // const markHeight = 1.69;
@@ -141,3 +140,27 @@ const markHigherBMI = markBMI > johnBMI;
 
 console.log(markBMI, johnBMI);
 console.log(markHigherBMI);
+*/
+
+const firstName = 'Jonas';
+const job = 'teacher';
+const birthYear = 1991;
+const year = 2037;
+
+const jonas =
+  "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+
+console.log(jonas);
+
+const jonasNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
+
+console.log(jonasNew);
+
+console.log(`Just a regular string...`);
+
+console.log('String with \n\
+multiple \n\
+lines');
+console.log(`String
+multiple
+lines`);
