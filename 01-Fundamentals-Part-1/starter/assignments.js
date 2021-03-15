@@ -12,7 +12,7 @@ let language;
 // console.log(typeof country);
 // console.log(typeof language);
 
-language = 'Russian';
+language = 'russian';
 
 // isIsland = true;
 
@@ -47,13 +47,19 @@ language = 'Russian';
 // console.log('123' < 57); // false
 // console.log(5 + 6 + '4' + 9 - 4 - 2); // 1143
 
-const numNeighbours = Number(
-  prompt('How many neighbour countries does your country have?')
-);
-if (numNeighbours === 1) {
-  console.log('Only 1 border');
-} else if (numNeighbours > 1) {
-  console.log('More than 1 border');
+// const numNeighbours = Number(
+//   prompt('How many neighbour countries does your country have?')
+// );
+// if (numNeighbours === 1) {
+//   console.log('Only 1 border');
+// } else if (numNeighbours > 1) {
+//   console.log('More than 1 border');
+// } else {
+//   console.log('No borders');
+// }
+
+if (language === 'english' && population < 50 && !isIsland) {
+  console.log(`You should live in ${country}`);
 } else {
-  console.log('No borders');
+  console.log(`${country} does not meet your criteria :(`);
 }
