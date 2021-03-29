@@ -10,7 +10,7 @@ const descGermany = describeCountry('Germany', 83, 'Berlin');
 console.log(descRussia);
 console.log(descFinland);
 console.log(descGermany);
-*/
+
 
 function percentageOfWorld1(population) {
   return (population / 7900) * 100;
@@ -29,3 +29,11 @@ const percentageRussia2 = percentageOfWorld1(144);
 const percentageFinland2 = percentageOfWorld1(6);
 const percentageGermany2 = percentageOfWorld1(83);
 console.log(percentageRussia2, percentageFinland2, percentageGermany2);
+*/
+
+const percentageOfWorld3 = (population) => (population / 7900) * 100;
+
+const percentageRussia3 = percentageOfWorld3(144);
+const percentageFinland3 = percentageOfWorld3(6);
+const percentageGermany3 = percentageOfWorld3(83);
+console.log(percentageRussia3, percentageFinland3, percentageGermany3);
