@@ -37,7 +37,7 @@ const percentageRussia3 = percentageOfWorld3(144);
 const percentageFinland3 = percentageOfWorld3(6);
 const percentageGermany3 = percentageOfWorld3(83);
 console.log(percentageRussia3, percentageFinland3, percentageGermany3);
-*/
+
 
 function percentageOfWorld1(population) {
   return (population / 7900) * 100;
@@ -52,3 +52,18 @@ function describePopulation(country, population) {
 describePopulation('Russia', 144);
 describePopulation('Finland', 6);
 describePopulation('Germany', 83);
+*/
+
+function percentageOfWorld1(population) {
+  return (population / 7900) * 100;
+}
+
+const populations = [144, 6, 84, 844];
+console.log(populations.length === 4);
+const percentages = [
+  percentageOfWorld1(populations[0]),
+  percentageOfWorld1(populations[1]),
+  percentageOfWorld1(populations[2]),
+  percentageOfWorld1(populations[3]),
+];
+console.log(percentages);
