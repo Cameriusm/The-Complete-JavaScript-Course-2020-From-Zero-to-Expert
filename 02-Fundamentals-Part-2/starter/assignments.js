@@ -67,7 +67,7 @@ const percentages = [
   percentageOfWorld1(populations[3]),
 ];
 console.log(percentages);
-*/
+
 
 const neighbours = ['Germany', 'Czech', 'Poland'];
 neighbours.push('Utopia');
@@ -78,3 +78,21 @@ if (!neighbours.includes('Germany')) {
 
 neighbours[neighbours.indexOf('Czech')] = 'Czech republic';
 console.log(neighbours);
+*/
+
+const myCountry = {
+  country: 'France',
+  capital: 'Paris',
+  language: 'french',
+  population: 67,
+  neighbours: [
+    'Belgium',
+    'Luxembourg',
+    'Germany',
+    'Switzerland',
+    'Italy',
+    'Monaco',
+    'Spain',
+    'Andorra',
+  ],
+};
