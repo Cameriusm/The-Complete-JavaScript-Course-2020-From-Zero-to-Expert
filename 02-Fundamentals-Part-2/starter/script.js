@@ -387,7 +387,7 @@ from the method
 respective BMI. Example: "John's BMI (28.3) is higher than Mark's (23.9)!"
 Test data: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m
 tall.
-*/
+
 const mark = {
   fullName: 'Mark Miller',
   mass: 78,
@@ -422,3 +422,20 @@ console.log(
     ? `${john.fullName}'s BMI ${john.BMI} is higher than ${mark.fullName}'s ${mark.BMI}`
     : `${mark.fullName}'s BMI ${mark.BMI} is higher than ${john.fullName}'s ${john.BMI}`
 );
+*/
+
+// console.log('Lifting weights repetition 1');
+// console.log('Lifting weights repetition 2');
+// console.log('Lifting weights repetition 3');
+// console.log('Lifting weights repetition 4');
+// console.log('Lifting weights repetition 5');
+// console.log('Lifting weights repetition 6');
+// console.log('Lifting weights repetition 7');
+// console.log('Lifting weights repetition 8');
+// console.log('Lifting weights repetition 9');
+// console.log('Lifting weights repetition 10');
+
+// for loop keeps running while condition is TRUE
+for (let rep = 1; rep <= 10; rep++) {
+  console.log(`Lifting weights repitition ${rep}`);
+}
