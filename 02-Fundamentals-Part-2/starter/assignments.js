@@ -78,7 +78,7 @@ if (!neighbours.includes('Germany')) {
 
 neighbours[neighbours.indexOf('Czech')] = 'Czech republic';
 console.log(neighbours);
-*/
+
 
 const myCountry = {
   country: 'France',
@@ -115,3 +115,8 @@ console.log(myCountry);
 // console.log(myCountry.population);
 // myCountry['population'] -= 2;
 // console.log(myCountry.population);
+*/
+
+for (let voter = 1; voter <= 50; voter++) {
+  console.log(`Voter number ${voter} is currently voting`);
+}
